@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="terminal" data-font="instrument">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Christina Morillo's blog — thoughts on information security, leadership, and inclusion in tech." />
+  <title>Blog · C:\hristina Morillo</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<div class="shell">
+
+  <!-- SWITCHER -->
+  <div class="switcher" role="toolbar" aria-label="Appearance settings">
+    <span class="sw-label">Theme</span>
+    <button class="sw-btn" data-sw-theme="terminal">Terminal</button>
+    <button class="sw-btn" data-sw-theme="light">Light</button>
+    <button class="sw-btn" data-sw-theme="cream">Cream</button>
+    <div class="sw-divider"></div>
+    <span class="sw-label">Font</span>
+    <button class="sw-btn" data-sw-font="instrument">Instrument</button>
+    <button class="sw-btn" data-sw-font="dm">DM Serif</button>
+    <button class="sw-btn" data-sw-font="playfair">Playfair</button>
+  </div>
+
+  <!-- HEADER -->
+  <div class="site-header">
+    <div class="site-logo">Christina_Morillo.exe</div>
+    <div class="site-clock" id="siteClock">00:00:00</div>
+  </div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="index.html">HOME</a>
+    <a href="index.html#about">ABOUT</a>
+    <a href="blog.html" class="active">BLOG</a>
+    <a href="index.html#podcast">PODCAST</a>
+    <a href="https://www.oreilly.com/pub/au/8268" target="_blank" rel="noopener">BOOKS</a>
+    <a href="https://bio.site/christinamorillo" target="_blank" rel="noopener">LINKS</a>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="pre-label">dispatches from the field</div>
+    <h1 class="page-title">Blog</h1>
+    <p class="page-subtitle">Thoughts on security leadership, strategy, and making the industry more accessible.</p>
+  </div>
+
+  <!-- BLOG LIST -->
+  <div class="content-section">
+    <div class="section-heading">ALL POSTS</div>
+
+    <div class="blog-filter">
+      <button class="filter-btn active" data-tag="all">[ALL]</button>
+      <button class="filter-btn" data-tag="strategy">[STRATEGY]</button>
+      <button class="filter-btn" data-tag="leadership">[LEADERSHIP]</button>
+      <button class="filter-btn" data-tag="books">[BOOKS]</button>
+    </div>
+
+    <div class="blog-full-list">
+      <a class="blog-item" href="https://www.christinamorillo.com/blog/goodenoughinfosec" target="_blank" rel="noopener" data-tags="strategy leadership">
+        <div class="blog-item-meta">
+          <span class="blog-item-date">2024-10-08</span>
+          <span class="blog-item-tag">Strategy</span>
+        </div>
+        <div class="blog-item-body">
+          <div class="blog-item-title">The Struggle of "Good Enough" in Information Security</div>
+          <div class="blog-item-excerpt">Exploring the tension between pragmatic progress and the pursuit of a mature, fully realized security posture.</div>
+        </div>
+        <div class="blog-item-arrow">&gt;&gt;</div>
+      </a>
+
+      <a class="blog-item" href="https://www.christinamorillo.com/blog/infosecandit" target="_blank" rel="noopener" data-tags="strategy leadership">
+        <div class="blog-item-meta">
+          <span class="blog-item-date">2024-10-07</span>
+          <span class="blog-item-tag">Leadership</span>
+        </div>
+        <div class="blog-item-body">
+          <div class="blog-item-title">Does Cybersecurity / Information Security Belong Within the I.T. Function?</div>
+          <div class="blog-item-excerpt">A long-standing debate: should InfoSec report to IT, or operate independently? Christina breaks it down.</div>
+        </div>
+        <div class="blog-item-arrow">&gt;&gt;</div>
+      </a>
+
+      <a class="blog-item" href="https://www.christinamorillo.com/blog/new-book-announcement-zero-trust-2nd-ed-is-now-available" target="_blank" rel="noopener" data-tags="books">
+        <div class="blog-item-meta">
+          <span class="blog-item-date">2024-03-17</span>
+          <span class="blog-item-tag">Books</span>
+        </div>
+        <div class="blog-item-body">
+          <div class="blog-item-title">New Book Announcement: Zero Trust, 2nd Edition is Now Available</div>
+          <div class="blog-item-excerpt">The fully updated second edition of Zero Trust Networks is now available via O'Reilly Media.</div>
+        </div>
+        <div class="blog-item-arrow">&gt;&gt;</div>
+      </a>
+    </div>
+  </div>
+
+  <!-- TERMINAL BLOCK -->
+  <div class="terminal-block">
+    <div class="t-line"><span class="t-prompt">admin@christinamorillo:~$</span> <span class="t-cmd">&nbsp;./load_posts.sh --all</span></div>
+    <div class="t-line"><span class="t-out">&nbsp;&gt; 3 posts loaded successfully</span></div>
+    <div class="t-line"><span class="t-dim">&nbsp;&gt; More dispatches coming soon...</span></div>
+    <div class="t-line" style="margin-top:6px"><span class="t-prompt">admin@christinamorillo:~$</span> <span class="t-cursor"></span></div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div>
+      <div class="footer-col-label">// navigate</div>
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="index.html#podcast">Podcast</a>
+      <a href="https://bio.site/christinamorillo" target="_blank" rel="noopener">Links</a>
+    </div>
+    <div>
+      <div class="footer-col-label">// work</div>
+      <a href="https://www.oreilly.com/pub/au/8268" target="_blank" rel="noopener">O'Reilly Books</a>
+      <a href="https://www.wocintechchat.com" target="_blank" rel="noopener">WoCinTech Photos</a>
+      <a href="https://podcasts.apple.com/us/podcast/colors-of-infosec-podcast/id1531541552" target="_blank" rel="noopener">Colors of InfoSec</a>
+    </div>
+    <div>
+      <div class="footer-col-label">// say hello</div>
+      <p style="font-family:var(--font-mono);font-size:11px;color:var(--text-muted);margin-bottom:12px;line-height:1.8">News and updates, no noise.</p>
+      <form class="subscribe-row" onsubmit="handleSubscribe(event)">
+        <input type="email" class="email-input" placeholder="your@email.com" required />
+        <button type="submit" class="sub-btn">Submit</button>
+      </form>
+      <div class="subscribe-msg" id="subscribeMsg"></div>
+    </div>
+  </footer>
+
+  <div class="footer-bottom">
+    <span>© 2025 christinamorillo.com</span>
+    <span>// Made in New York</span>
+  </div>
+
+</div><!-- /.shell -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
